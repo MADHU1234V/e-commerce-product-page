@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+    <style>
+        /* Add your CSS here */
+    </style>
+</head>
+<body>
+    <div id="product">
+        <img id="product-image" src="https://www.bing.com/th?id=OIP.fT-6KPR8sc80czo1rlfRcwHaE8&w=160&h=107&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Shoe Image">
+        <h2 id="product-name">Sports shoe</h2>
+        <p id="product-description">running Shoe</p>
+        <p id="product-price">999/-</p>
+        <button id="add-to-cart">Add to Cart</button>
+    </div>
+    <div id="cart">
+        <!-- Shopping cart will be displayed here -->
+    </div>
+    <script>
+        // Add your JavaScript here
+        document.getElementById('add-to-cart').addEventListener('click', function() {
+            // Code to add the product to the cart
+        });
+    </script>
+</body>
+</html>
